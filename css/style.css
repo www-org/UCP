@@ -1,0 +1,194 @@
+/* RESET */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* LINE CODING */
+
+*{ margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+
+
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: blue rgb(0, 255, 221);
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(150, 97, 236);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 136, 0);
+    border-radius: 20px;
+    border: 3px solid rgb(255, 0, 136);
+  }
+
+
+
+
+
+
+header{
+    background: rgb(96,179,225);
+    background: linear-gradient(306deg, rgba(96,179,225,1) 0%, rgba(255,201,13,1) 100%);
+    width: 100%;
+    height: 20rem;
+}
+
+header nav{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+header nav img{
+    width: 18rem;
+}
+
+
+
+
+.links{
+    text-align: center;
+    position: relative;
+    margin-top: 1.50rem;rgb(200, 34, 34);
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #D4D4D4;
+    height: 50px;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #3E3E3E;
+    letter-spacing: 0.5px;
+    padding: 0 2rem 0 2rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #60B3E1;
+    
+    height: 3px;
+    width: 0;
+    left: 5px;
+    bottom: -10px;
+    transition: 0.6s;
+}
+
+a:hover{
+    color: #60B3E1;
+}
+
+a:hover:after{
+    width: 100%;
+}
+
+section .start{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+}
+
+.notices{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #7B7B7B;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.morro{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(96,179,225);
+    color: linear-gradient(306deg, rgba(96,179,225,1) 0%, rgba(255,201,13,1) 100%);
+}
+
+.conteudo-1{
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+}
+
+.conteudo-1 p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+.patrocinio{
+    margin-bottom: 10rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(96,179,225);
+    color: linear-gradient(306deg, rgba(96,179,225,1) 0%, rgba(255,201,13,1) 100%);
+}
+
+
+.data{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(96,179,225);
+    color: linear-gradient(306deg, rgba(96,179,225,1) 0%, rgba(255,201,13,1) 100%);
+}
+
+
+.start{
+    margin-left: -150px;
+    color: none;
+}
+
+.animaE{
+    transition: 0.5s;
+    margin-left: 0px;
+}
+
+
+
+
+footer{
+    background: rgb(96,179,225);
+    background: linear-gradient(306deg, rgba(96,179,225,1) 0%, rgba(255,201,13,1) 100%);
+    width: 100%;
+    height: 20rem;
+}
